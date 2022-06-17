@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-image: url("anh_nen_bac_cuc.jpg");
+  background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	display:flex;
+	justify-content: center;
+	object-fit: cover;
+	
+}
+.section { height: 100vh;}
+.section—first { height: 35vh; }
+/*
+h1 {
+  margin-left: 20px;
+}
+*/
+.wrap{
+		width: 100%;
+		float: left
+	}
+.main{
+	width: 100%;
+	padding: 100px 10px 10px 10px;
+	}
+.import{
+	margin: auto;
+	padding: 10px 10px 10px 10px;
+}	
+.logo{
+	display:flex;
+	justify-content: center;
+	
+}
+
+.logo img {
+	width: 200px;
+	height:200px;
+	display:flex;
+	justify-content: center;
+	object-fit: cover;
+}
